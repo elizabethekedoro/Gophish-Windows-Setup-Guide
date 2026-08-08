@@ -275,7 +275,7 @@ Return to the Sending Profile page and click >Save Profile: <br/>
 <br />
 
 <p align="center">
-You have successfully configured your sending profile and it is now ready for use. <br/>
+You have successfully configured your Sending Profile and it is now ready for use. <br/>
 <img src="https://github.com/user-attachments/assets/c606e89b-19ff-4b1b-86f7-ce56beb85f75" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
 <br />.
 <br />
@@ -286,18 +286,63 @@ You have successfully configured your sending profile and it is now ready for us
 <!-- Step 4 -->
 <details>
 <summary><b> Step 4: Setting up Landing Page</b></summary>
+<br />
 
 <p align="center">
-Sign in to your Google account <br/>
+A landing page is the webpage a user is redirected to when they click the phishing link contained in an email. <br/>
 <br />
   
 <p align="center">
-Click your profile picture: <br/>
-<img src="https://github.com/user-attachments/assets/c8ca86fb-fb5f-41cb-a616-3946fae74764" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+To create a landing page, click >Landing Pages on the left-hand pane, then click >New Page: <br/>
+<img src="https://github.com/user-attachments/assets/60627790-90ef-4f5e-80ef-d7e386d767a2" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
 <br />
 <br />
 
+**Setup the following:**
+<table style="border-collapse: collapse; width: 100%;">
+    <tr>
+        <th style="border: 1px solid #000; padding: 8px; text-align: left;">Field</th>
+        <th style="border: 1px solid #000; padding: 8px; text-align: left;">Description</th>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000; padding: 8px;">Name</td>
+        <td style="border: 1px solid #000; padding: 8px;">Enter a name for your landing page. For this tutorial, I will use >Fake Instagram Simulation.</td>
+    </tr>
+  
+   <tr>
+        <td style="border: 1px solid #000; padding: 8px;">HTML</td>
+        <td style="border: 1px solid #000; padding: 8px;">Click the HTML tab and use the HTML sample I have prepared on my GitHub. <br/> 
+          To access the sample, click <a href="https://github.com/elizabethekedoro/Gophish-Windows-Setup-Guide/blob/main/Landing%20Page%20Template/Instagram.html" target="_blank">Here</a>
+        </tr>
+    </tr>
+</table>
 
+<p align="center">
+Copy and paste the HTML code into the >HTML editor: <br/>
+<img src="https://github.com/user-attachments/assets/c5d66522-d9ff-4116-b4cc-0f8c027a9177" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+<br />
+
+<p align="center">
+To preview what the landing page looks like, click >Source: <br/>
+<img src="https://github.com/user-attachments/assets/86d60cc2-33c4-4ea4-bb5b-f325690c9715" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+<br />
+
+<p align="center">
+select >Capture Submitted Data and >Capture Passwords: <br/> 
+This is to esnure the login credentials entered during the simulation will be captured, which you will see at the end of this exercise.
+ <br/>
+<img src="https://github.com/user-attachments/assets/a606db0e-fd69-4bf5-b59d-05a4cf78cda3" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+<br />
+
+<p align="center">
+You have successfully setup your Landing Page and it is now ready for use. <br/> 
+<img src="https://github.com/user-attachments/assets/d7ec6cb1-9d4b-4ae2-8f4e-d160ccf65f8f" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+<br />
+  
 </details>
 
 <!-- Step 5 -->
