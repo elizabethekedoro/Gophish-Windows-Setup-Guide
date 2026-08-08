@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body><!-- Mail Body -->
+<p style="color: #333333; font-size: 16px; line-height: 1.6; margin: 0 0 20px 0;">Hi <strong>{{.FirstName}}</strong>,</p>
+
+<p style="color: #333333; font-size: 16px; line-height: 1.6; margin: 0 0 20px 0;">Your instagram&nbsp;account has been flagged for suspicious activity.</p>
+<!-- Suspicious Activity Box -->
+
+<table cellpadding="20" cellspacing="0" style="background: #fff5f5; border: 2px solid #e1306c; border-radius: 8px; margin: 25px 0;" width="100%">
+	<tbody>
+		<tr>
+			<td>
+			<div style="color: #e1306c; font-size: 16px; font-weight: bold; margin-bottom: 15px;">SUSPICIOUS LOGIN ACTIVITY FLAGGED</div>
+
+			<table cellpadding="8" cellspacing="0" width="100%">
+				<tbody>
+					<tr>
+						<td style="color: #333; font-size: 14px; padding: 8px 0; border-bottom: 1px solid #ffdddd;"><strong>Attempted login from unrecognized device</strong><br />
+						<span style="color: #666; font-size: 13px;">Location: Lagos, Nigeria | IP: 185.0.0.1</span></td>
+					</tr>
+					<tr>
+						<td style="color: #333; font-size: 14px; padding: 8px 0; border-bottom: 1px solid #ffdddd;"><strong>Failed authentication attempts</strong><br />
+						<span style="color: #666; font-size: 13px;">7 failed login attempts in 1 hour</span></td>
+					</tr>
+					<tr>
+						<td style="color: #333; font-size: 14px; padding: 8px 0;"><strong>Password reset request initiated</strong><br />
+						<span style="color: #666; font-size: 13px;">Request from unrecognized location</span></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<!-- Account Status -->
+
+<table cellpadding="18" cellspacing="0" style="background: #fff3cd; border-left: 5px solid #ffc107; border-radius: 6px; margin: 25px 0;" width="100%">
+	<tbody>
+		<tr>
+			<td>
+			<div style="color: #856404; font-size: 15px; font-weight: bold; margin-bottom: 10px;">YOUR ACCOUNT WILL&nbsp;BE&nbsp;TEMPORARILY RESTRICTED</div>
+
+			<p style="color: #856404; font-size: 14px; line-height: 1.6; margin: 0;">You must reset your password to regain access&nbsp;and prevent account takeover,</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<!-- CTA Button -->
+
+<table cellpadding="0" cellspacing="0" style="margin: 30px 0;" width="100%">
+	<tbody>
+		<tr>
+			<td align="center" style="padding: 25px 0;"><a href="{{.URL}}" style="display: inline-block; background: #e1306c; color: #ffffff; text-decoration: none; padding: 18px 50px; border-radius: 6px; font-size: 17px; font-weight: bold; box-shadow: 0 4px 12px rgba(225, 48, 108, 0.4);">Reset Your Password </a></td>
+		</tr>
+	</tbody>
+</table>
+<!-- Countdown Timer -->
+
+<table cellpadding="15" cellspacing="0" style="background: #f8f9fa; border-radius: 6px; margin: 25px 0;" width="100%">
+	<tbody>
+		<tr>
+			<td align="center">
+			<div style="color: #e1306c; font-size: 18px; font-weight: bold;">Time Remaining to Reset password</div>
+
+			<div style="color: #333; font-size: 32px; font-weight: bold; margin: 10px 0;">22:00:00</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="color: #666666; font-size: 14px; line-height: 1.6; margin: 25px 0 0 0; padding-top: 20px; border-top: 1px solid #e0e0e0;"><strong>If you do not recognize this activity,</strong> your account may be compromised. Act immediately to prevent permanent loss of account.</p>
+
+<p>&nbsp;</p>
+
+<p><br />
+<!-- Footer --></p>
+
+<p style="color: #666666; font-size: 12px; line-height: 1.6; margin: 0 0 10px 0; text-align: center;"><strong>Instagram Security Team</strong><br />
+This is an automated security alert.</p>
+
+<p style="color: #999999; font-size: 11px; line-height: 1.5; margin: 15px 0 0 0; text-align: center;">DO NOT REPLY THIS EMAIL<br />
+&copy; 2026&nbsp;Instagram. Mata Platforms<br />
+Security Center | <a href="#" style="color: #999; text-decoration: none;">Privacy Policy</a></p>
+<!-- Disclaimer -->
+
+<table cellpadding="0" cellspacing="0" style="margin: 25px 0;" width="100%">
+	<tbody>
+		<tr>
+			<td align="center">
+			<table cellpadding="15" cellspacing="0" style="background-color:#fff3cd; border:3px solid #ffc107; border-radius:8px; max-width:500px;">
+				<tbody>
+					<tr>
+						<td align="center">
+						<div style="color:#856404; font-family:Calibri, Arial, sans-serif;">
+						<div style="font-size:16px; font-weight:bold;">CYBERSECURITY AWARENESS TRAINING BY ELIZABETH EKEDORO</div>
+
+						<div style="font-size:12px; font-weight:normal; margin-top:8px; line-height:1.5;">This is a simulated phishing exercise conducted for educational purposes.</div>
+						</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>{{.Tracker}}</p>
+</body>
+</html>
