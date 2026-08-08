@@ -40,37 +40,150 @@ Before getting started, ensure you have the following:
 
 <details>
 <summary><b>Step 1: Installing Gophish</b></summary>
-  
-```bash
-Visit the Gophish website. https://getgophish.com
-```
-<p align="center">
-Sign in to your Google account <br/>
 <br />
-<br />
+<p align="center">  
+Visit the Gophish website --> https://getgophish.com
+<img src="https://github.com/user-attachments/assets/80484d38-676c-40a8-bc9e-14f610e87f22" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br/>
+<br/>
   
 <p align="center">
-Click your profile picture: <br/>
-<img src="https://github.com/user-attachments/assets/c8ca86fb-fb5f-41cb-a616-3946fae74764" height="70%" width="70%" alt="How to Create Gmail App Password Steps"/>
+Click Download: <br/>
+<img src="https://github.com/user-attachments/assets/1f91134e-fc7b-4ba3-8c43-ef90fb0578f8" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+<br />
+
+<p align="center">
+Scroll down to the Assets section and select the Windows Zip file: <br/>
+<img src="https://github.com/user-attachments/assets/2c19bfe3-93ce-4b55-8805-0a22ca3dbd75" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+<br />
+
+<p align="center">
+Choose a folder where you want to save the ZIP file and click Save: <br/>
+<img src="https://github.com/user-attachments/assets/f3fba04a-c0a8-4dbc-b762-5a269fe52671" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+<br />
+
+<p align="center">
+After the download completes, navigate to the Gophish zip file, Right click and select Extract All: <br/>
+<img src="https://github.com/user-attachments/assets/b880f550-e998-48cf-87d4-62cb88828043" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+<br />
+
+<p align="center">
+Choose your preferred extraction location and click Extract: <br/>
+<img src="https://github.com/user-attachments/assets/c51a1a0a-11b1-45b9-aab7-a1fc0b3fbba3" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+<br />
+
+<p align="center">
+Wait until extraction is complete: <br/>
+<img src="https://github.com/user-attachments/assets/1f4992da-764a-467a-b3db-3b18b77051e5" height="70%" width="70%" alt="Gophish Windows Setup Guide"/> <br/>
+  <p align="center">
+The extracted folder will contain the Gophish executable and all required files.
 <br />
 <br />
 
 </details>
 
+<!-- Step 2 -->
 <details>
 <summary><b> Step 2: Configuring Gophish</b></summary>
-
-<p align="center">
-Sign in to your Google account <br/>
-<br />
+<br/>
   
 <p align="center">
-Click your profile picture: <br/>
-<img src="https://github.com/user-attachments/assets/c8ca86fb-fb5f-41cb-a616-3946fae74764" height="70%" width="70%" alt="How to Create Gmail App Password Steps"/>
+Open the extracted folder / Unzipped File: <br/>
+<img src="https://github.com/user-attachments/assets/64930fa2-9aaa-4ee2-8911-fe4ccd64e59e" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
 <br />
 <br />
 
+<p align="center">
+Right-click the gophish.exe file and select Run as administrator: <br/>
+<img src="https://github.com/user-attachments/assets/ac6561c4-9ad0-4e22-adeb-46bfef4ea593" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+<br />
+
+<p align="center">
+If Windows prompts you to allow the application through the firewall, click Allow: <br/>
+<img src="https://github.com/user-attachments/assets/15bce0ec-f10a-4120-8470-4516cd7820bd" height="70%" width="70%" alt="Gophish Windows Setup Guide"/> <br/>
+
+<br />
+<br />
+<p align="center">
+Once Gophish installs successfully, the terminal window will display the default administrator credentials: <br/>
+<img src="https://github.com/user-attachments/assets/3ce8b706-0e43-4869-8f04-6ed07f9927e6" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+  
+Note down the following information: <br/>
+
+- Username: admin.
+- Password: Your unique 16-character generated password displayed in your terminal.
+- Gophish Server URL: https://127.0.0.1:3333.
+
+Copy and save these credentials in your Notepad.
+
+<br />
+
+**Accessing the Gophish Interface/Platform** <br/>
+<p align="center">
+Open your web browser and navigate to the gophish Server: https://127.0.0.1:3333<br/>
+<img src="https://github.com/user-attachments/assets/f5904416-1a42-4597-91b8-95271e368677" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+<br />
+<p align="center">
+Since Gophish uses a self-signed certificate, your browser will display a security warning. Click Advanced:<br/>
+<img src="https://github.com/user-attachments/assets/22003085-d1c0-425d-aa96-661d64407b16" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+<br />
+
+<p align="center">
+Select, Proceed to 127.0.0.1 (unsafe):<br/>
+<img src="https://github.com/user-attachments/assets/28ea8ba4-525e-4ae8-8245-49b7a73d37f0" height="70%" width="70%" alt="Gophish Windows Setup Guide"/> <br/>
+<p align="center">
+This is expected because the server is running locally.
+<br />
+<br />
+
+**Logging Into Gophish** <br/>
+
+Enter the following: <br/>
+
+- Username: admin.
+- Password: Your unique 16-character generated password displayed your terminal.
+
+<p align="center">
+Click Sign In:<br/>
+<img src="https://github.com/user-attachments/assets/56cf2b39-d1d8-45ee-9352-95f35baa4061" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+
+ <p align="center">
+The first time you log in, Gophish will prompt you to reset your password. <br/> Choose a strong password and click Save Password:<br/>
+<img src="https://github.com/user-attachments/assets/4c185f7d-c8a1-4d98-aa53-f18dc3b21abb" height="70%" width="70%" alt="Gophish Windows Setup Guide"/> <br/>
+
+<br />   
+<p align="center">
+After signing in successfully, you will see the Gophish dashboard.
+<img src="https://github.com/user-attachments/assets/b0c8a8ea-302f-411b-a39f-0a4534f91cde" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+
+**The left navigation pane contains the following sections:** <br/>
+
+- Dashboard.
+- Campaigns
+- Users & Groups.
+- Email Templates.
+- Landing Pages.
+- Sending Profiles.
+- Account Settings.
+- User Management.
+- Webhooks.
+  
+<br/> 
 </details>
+
+
+<!-- Step 3 -->
 
 <details>
 <summary><b> Step 3: Configuring Sending Profile</b></summary>
@@ -81,7 +194,7 @@ Sign in to your Google account <br/>
   
 <p align="center">
 Click your profile picture: <br/>
-<img src="https://github.com/user-attachments/assets/c8ca86fb-fb5f-41cb-a616-3946fae74764" height="70%" width="70%" alt="How to Create Gmail App Password Steps"/>
+<img src="https://github.com/user-attachments/assets/c8ca86fb-fb5f-41cb-a616-3946fae74764" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
 <br />
 <br />
 
@@ -92,6 +205,7 @@ Click your profile picture: <br/>
 </details>
 
 
+<!-- Step 4 -->
 <details>
 <summary><b> Step 4: Setting up Landing Page</b></summary>
 
@@ -101,13 +215,14 @@ Sign in to your Google account <br/>
   
 <p align="center">
 Click your profile picture: <br/>
-<img src="https://github.com/user-attachments/assets/c8ca86fb-fb5f-41cb-a616-3946fae74764" height="70%" width="70%" alt="How to Create Gmail App Password Steps"/>
+<img src="https://github.com/user-attachments/assets/c8ca86fb-fb5f-41cb-a616-3946fae74764" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
 <br />
 <br />
 
 
 </details>
 
+<!-- Step 5 -->
 <details>
 <summary><b> Step 5: Setting up Email Template</b></summary>
 
@@ -117,12 +232,15 @@ Sign in to your Google account <br/>
   
 <p align="center">
 Click your profile picture: <br/>
-<img src="https://github.com/user-attachments/assets/c8ca86fb-fb5f-41cb-a616-3946fae74764" height="70%" width="70%" alt="How to Create Gmail App Password Steps"/>
+<img src="https://github.com/user-attachments/assets/c8ca86fb-fb5f-41cb-a616-3946fae74764" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
 <br />
 <br />
 
 
 </details>
+
+
+<!-- Step 6 -->
 
 <details>
 <summary><b> Step 6: Setting Up Users & Groups</b></summary>
@@ -133,12 +251,15 @@ Sign in to your Google account <br/>
   
 <p align="center">
 Click your profile picture: <br/>
-<img src="https://github.com/user-attachments/assets/c8ca86fb-fb5f-41cb-a616-3946fae74764" height="70%" width="70%" alt="How to Create Gmail App Password Steps"/>
+<img src="https://github.com/user-attachments/assets/c8ca86fb-fb5f-41cb-a616-3946fae74764" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
 <br />
 <br />
 
 
 </details>
+
+
+<!-- Step 7 -->
 
 <details>
 <summary><b> Step 7: Launching a Phishing Campaign</b></summary>
@@ -149,7 +270,7 @@ Sign in to your Google account <br/>
   
 <p align="center">
 Click your profile picture: <br/>
-<img src="https://github.com/user-attachments/assets/c8ca86fb-fb5f-41cb-a616-3946fae74764" height="70%" width="70%" alt="How to Create Gmail App Password Steps"/>
+<img src="https://github.com/user-attachments/assets/c8ca86fb-fb5f-41cb-a616-3946fae74764" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
 <br />
 <br />
 
@@ -157,6 +278,9 @@ Click your profile picture: <br/>
 
 **Launching the Phishing Campaign**
 </details>
+
+
+<!-- Step 8 -->
 
 <details>
 <summary><b> Step 8: Viewing the Phishing Campaign Result in Real-time</b></summary>
@@ -167,7 +291,7 @@ Sign in to your Google account <br/>
   
 <p align="center">
 Click your profile picture: <br/>
-<img src="https://github.com/user-attachments/assets/c8ca86fb-fb5f-41cb-a616-3946fae74764" height="70%" width="70%" alt="How to Create Gmail App Password Steps"/>
+<img src="https://github.com/user-attachments/assets/c8ca86fb-fb5f-41cb-a616-3946fae74764" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
 <br />
 <br />
 
