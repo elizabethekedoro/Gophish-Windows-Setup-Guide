@@ -169,15 +169,15 @@ After signing in successfully, you will see the Gophish dashboard.
 
 **The left navigation pane contains the following sections:** <br/>
 
-- Dashboard.
+- Dashboard
 - Campaigns
-- Users & Groups.
-- Email Templates.
-- Landing Pages.
-- Sending Profiles.
-- Account Settings.
-- User Management.
-- Webhooks.
+- Users & Groups
+- Email Templates
+- Landing Pages
+- Sending Profiles
+- Account Settings
+- User Management
+- Webhooks
   
 <br/> 
 </details>
@@ -187,21 +187,99 @@ After signing in successfully, you will see the Gophish dashboard.
 
 <details>
 <summary><b> Step 3: Configuring Sending Profile</b></summary>
-
-<p align="center">
-Sign in to your Google account <br/>
+<br/>
+A Sending Profile contains the SMTP settings Gophish uses to send phishing simulation emails. <br/>
 <br />
   
 <p align="center">
-Click your profile picture: <br/>
-<img src="https://github.com/user-attachments/assets/c8ca86fb-fb5f-41cb-a616-3946fae74764" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
-<br />
+To create one: Click >Sending Profiles, then click >New Profile: <br/>
+<img src="https://github.com/user-attachments/assets/7a5ce8c3-6aca-487b-a3c5-8450484b035e" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
 <br />
 
-**Generating Gmail App password**
+**Configure the following:**
+
+<table style="border-collapse: collapse; width: 100%;">
+    <tr>
+        <th style="border: 1px solid #000; padding: 8px; text-align: left;">Field</th>
+        <th style="border: 1px solid #000; padding: 8px; text-align: left;">Description</th>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000; padding: 8px;">Profile Name</td>
+        <td style="border: 1px solid #000; padding: 8px;">Give your profile a descriptive name, example: Phishing Simulation</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000; padding: 8px;">Interface Type</td>
+        <td style="border: 1px solid #000; padding: 8px;">This is selected by default.</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000; padding: 8px;">SMTP From</td>
+        <td style="border: 1px solid #000; padding: 8px;">Enter the email address that will appear as the sender, example: yourgmail@gmail.com</td>
+    </tr>
+  <tr>
+        <td style="border: 1px solid #000; padding: 8px;">Host</td>
+        <td style="border: 1px solid #000; padding: 8px;">For Gmail SMTP, use either "smtp.gmail.com:465" or "smtp.gmail.com:587" </td>
+    </tr>
+   <tr>
+        <td style="border: 1px solid #000; padding: 8px;">Uername</td>
+        <td style="border: 1px solid #000; padding: 8px;">Enter the same Gmail address used in the SMTP From field, example: yourgmail@gmail.com</td>
+    </tr>
+   <tr>
+        <td style="border: 1px solid #000; padding: 8px;">Password</td>
+        <td style="border: 1px solid #000; padding: 8px;">Do not use your normal Gmail password. Instead, <br/> 
+          Click <a href="https://github.com/elizabethekedoro/How-to-Create-App-Password-for-Gmail" target="_blank">Here</a> for a quick step-by-step guide to generate your App Password.
+        </tr>
+    </tr>
+</table>
+<br/>
+<p align="center">
+<img src="https://github.com/user-attachments/assets/eb384151-f9b6-4cfb-8c2d-7ecaba1f48f4" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+
+<p align="center">
+After creating your App password, paste the App Password into the Password field.<br/>
+Enable >Ignore Certificate Errors, and leave everything else as default <br/>
+<img src="https://github.com/user-attachments/assets/f4119871-3053-4784-99df-671e5c98dbad" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+
+
+<br/>
+<br/>
 
 **Testing the Sending Profile Configuration**
 
+<p align="center">
+To test your configurations so far: Click > Send Test Email: <br/>
+<img src="https://github.com/user-attachments/assets/410ff4f9-5c03-474e-92e2-3ca86700419a" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+
+<p align="center">
+Input your details and, click > Send: <br/>
+<img src="https://github.com/user-attachments/assets/4929987e-12c8-43fc-88f0-fb36e609b15a" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+<br />
+
+<p align="center">
+Statu so far: Email Sent as seen in the screenshot below. <br/>
+<img src="https://github.com/user-attachments/assets/5ea66d78-10d7-489d-87f7-d085eb2ed952" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+
+<p align="center">
+If the email arrives successfully in your inbox, the SMTP configuration is working correctly. <br/>
+<img src="https://github.com/user-attachments/assets/ee99431f-0d6c-4944-b591-6cc7e2b5b123" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+
+<p align="center">
+Return to the Sending Profile page and click >Save Profile: <br/>
+<img src="https://github.com/user-attachments/assets/70bff4b1-3575-4cec-a02e-832f1a9058c3" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />.
+<br />
+
+<p align="center">
+You have successfully configured your sending profile and it is now ready for use. <br/>
+<img src="https://github.com/user-attachments/assets/c606e89b-19ff-4b1b-86f7-ce56beb85f75" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />.
+<br />
+  
 </details>
 
 
