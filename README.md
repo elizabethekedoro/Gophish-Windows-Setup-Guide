@@ -329,9 +329,9 @@ To preview what the landing page looks like, click >Source: <br/>
 <br />
 <br />
 
-<p align="center">
-select >Capture Submitted Data and >Capture Passwords: <br/> 
-This is to esnure the login credentials entered during the simulation will be captured, which you will see at the end of this exercise.
+- Select, >Capture Submitted Data and >Capture Passwords: (This is to esnure the login credentials entered during the simulation will be captured, which you will see at the end of this exercise.) <br/> 
+- Redirect to: Enter the URL where you want the user to be redirected after submitting the page. eg https://Instagram.com: <br/> 
+- Finally, click Save Page.
  <br/>
 <img src="https://github.com/user-attachments/assets/a606db0e-fd69-4bf5-b59d-05a4cf78cda3" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
 <br />
