@@ -188,6 +188,7 @@ After signing in successfully, you will see the Gophish dashboard.
 <details>
 <summary><b> Step 3: Configuring Sending Profile</b></summary>
 <br/>
+<br /> 
 A Sending Profile contains the SMTP settings Gophish uses to send phishing simulation emails. <br/>
 <br />
   
@@ -287,8 +288,7 @@ You have successfully configured your Sending Profile and it is now ready for us
 <details>
 <summary><b> Step 4: Setting up Landing Page</b></summary>
 <br />
-
-<p align="center">
+<br />
 A landing page is the webpage a user is redirected to when they click the phishing link contained in an email. <br/>
 <br />
   
@@ -312,7 +312,7 @@ To create a landing page, click >Landing Pages on the left-hand pane, then click
    <tr>
         <td style="border: 1px solid #000; padding: 8px;">HTML</td>
         <td style="border: 1px solid #000; padding: 8px;">Click the HTML tab and use the HTML sample I have prepared on my GitHub. <br/> 
-          To access the sample, click <a href="https://github.com/elizabethekedoro/Gophish-Windows-Setup-Guide/blob/main/Landing%20Page%20Template/Instagram.html" target="_blank">Here</a>
+          To access the Landing Page Template, click <a href="https://github.com/elizabethekedoro/Gophish-Windows-Setup-Guide/blob/main/Landing%20Page%20Template/Instagram.html" target="_blank">Here</a>
         </tr>
     </tr>
 </table>
@@ -333,6 +333,7 @@ To preview what the landing page looks like, click >Source: <br/>
 - Redirect to: Enter the URL where you want the user to be redirected after submitting the page. eg https://Instagram.com: <br/> 
 - Finally, click Save Page.
  <br/>
+ <p align="center">
 <img src="https://github.com/user-attachments/assets/a606db0e-fd69-4bf5-b59d-05a4cf78cda3" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
 <br />
 <br />
@@ -348,18 +349,74 @@ You have successfully setup your Landing Page and it is now ready for use. <br/>
 <!-- Step 5 -->
 <details>
 <summary><b> Step 5: Setting up Email Template</b></summary>
-
+<br />
+<br /> 
 <p align="center">
-Sign in to your Google account <br/>
+An email template is the content of the email that will be sent to the targets. You can either import an existing email or create one from scratch. <br/>
 <br />
   
 <p align="center">
-Click your profile picture: <br/>
-<img src="https://github.com/user-attachments/assets/c8ca86fb-fb5f-41cb-a616-3946fae74764" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+To create an email template, click >Email Templates and then click >New Template.: <br/>
+<img src="https://github.com/user-attachments/assets/0702a063-a2f0-4687-ad4c-bee310aee0c4" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
 <br />
 <br />
 
+**Setup the following:**
+<table style="border-collapse: collapse; width: 100%;">
+    <tr>
+        <th style="border: 1px solid #000; padding: 8px; text-align: left;">Field</th>
+        <th style="border: 1px solid #000; padding: 8px; text-align: left;">Description</th>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000; padding: 8px;">Name</td>
+        <td style="border: 1px solid #000; padding: 8px;">Enter a name for your template. For this tutorial, I will use >Fake Instagram Simulation: </td>
+    </tr>
 
+   </tr>
+    <tr>
+        <td style="border: 1px solid #000; padding: 8px;">Envelope Sender</td>
+        <td style="border: 1px solid #000; padding: 8px;">Enter the sender's name and email address you want recipients to see. Since I am mimicking Instagram,<br/> for this tutorial I will use, "Instagram< security@mail.instagram.com >" </td>
+    </tr>  
+    <tr>
+        <td style="border: 1px solid #000; padding: 8px;">Email Subject</td>
+        <td style="border: 1px solid #000; padding: 8px;">This is where you can create a sense of urgency. For this tutorial, I will use:<br/> 
+"Urgent: Suspicious Activity on Your Instagram Account" </td>
+    </tr>
+  
+   <tr>
+        <td style="border: 1px solid #000; padding: 8px;">HTML</td>
+        <td style="border: 1px solid #000; padding: 8px;">Click the HTML tab and use the HTML sample I have prepared on my GitHub. <br/> 
+          To access the Email Template, click <a href="https://github.com/elizabethekedoro/Gophish-Windows-Setup-Guide/blob/main/Email%20Template/Instagram.html" target="_blank">Here</a>
+        </tr>
+    </tr>
+</table>
+
+<p align="center">
+Copy and paste the HTML code into the >HTML editor: <br/>
+<img src="https://github.com/user-attachments/assets/01d356f8-57d0-4e70-b014-11e0f9b48128" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+<br />
+
+<p align="center">
+To preview what the Email Template looks like, click >Source: <br/>
+<img src="https://github.com/user-attachments/assets/412ce4e5-b404-4103-8fd9-98b79c44121f" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+<br />
+
+- Select, >Add Tracking Image (To track when the email is opened): <br/> 
+- Once you are satisfied with the template, click >Save Template: <br/> 
+ <br/>
+ <p align="center">
+<img src="https://github.com/user-attachments/assets/47cc9f3c-25aa-4f83-86c9-95d92fef9912" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+<br />
+
+<p align="center">
+You have successfully setup your Landing Page and it is now ready for use. <br/> 
+<img src="https://github.com/user-attachments/assets/552c3b4e-14b4-4541-84d4-f13fd2c3563f" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+<br />
+  
 </details>
 
 
@@ -367,18 +424,80 @@ Click your profile picture: <br/>
 
 <details>
 <summary><b> Step 6: Setting Up Users & Groups</b></summary>
-
-<p align="center">
-Sign in to your Google account <br/>
+<br/>
+<br/>
+  
+Users & Groups is where you create and organize the group of users you want to send the email to. <br/>
 <br />
   
 <p align="center">
-Click your profile picture: <br/>
-<img src="https://github.com/user-attachments/assets/c8ca86fb-fb5f-41cb-a616-3946fae74764" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+To create a new group, click >Users & Groups and then click >New Group: <br/>
+<img src="https://github.com/user-attachments/assets/e4458b4f-b597-42e4-b38e-ed974eb99d26" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
 <br />
 <br />
 
+**Setup the following:**
+<table style="border-collapse: collapse; width: 100%;">
+<tr>
+    <td style="border: 1px solid #000; padding: 8px;">Group Name</td>
+    <td style="border: 1px solid #000; padding: 8px;">Enter a name for your group. For this tutorial, I will use <br/>"Fake Instagram Simulation Group"
+    </td>
+</tr>
 
+<tr>
+    <td style="border: 1px solid #000; padding: 8px;">First Name</td>
+    <td style="border: 1px solid #000; padding: 8px;">
+        e.g. Ekedoro (enter the recipient's last name)
+    </td>
+</tr>
+  
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px;">Last Name</td>
+    <td style="border: 1px solid #000; padding: 8px;">
+        e.g. Ekedoro (enter the recipient's last name)
+    </td>
+</tr>
+
+<tr>
+    <td style="border: 1px solid #000; padding: 8px;">Email</td>
+    <td style="border: 1px solid #000; padding: 8px;">
+        e.g. sekanalyt@gmail.com (enter the recipient's email)
+    </td>
+</tr>
+
+<tr>
+    <td style="border: 1px solid #000; padding: 8px;">Position</td>
+    <td style="border: 1px solid #000; padding: 8px;">
+        e.g. CEO (enter the recipient's position)
+    </td>
+</tr>  
+</table>
+
+- Select, >Add (After inputing the required details): <br/> 
+- Once you are satisfied, click >Save Changes: <br/>
+<p align="center">
+<img src="https://github.com/user-attachments/assets/334b5e95-e9dd-4307-80a1-0383a46a7846" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+<br />
+
+## 📌 Note: Bulk Import Users
+ 
+> If you have multiple users, for example, when conducting a simulation for an organization, you do not have to <br/> enter their information one person at a time. You can import a CSV file containing the users' information.  
+> For this tutorial, I am only sending the simulation to myself, so I added my details. <br/>
+> Only use your own details unless you have explicit authorization or consent from an individual or organization.
+
+- Select, >Add (If you have two or more personal email addresses, you can add them as well): <br/> 
+- Once you are satisfied, click >Save Changes: <br/>  
+<p align="center">
+<img src="https://github.com/user-attachments/assets/494cb252-2f3b-4539-8430-8fd5254d884c" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+<br />
+
+<p align="center">
+You have successfully setup Users & Groups and it is now ready for use. <br/> 
+<img src="https://github.com/user-attachments/assets/5037429a-67c0-4481-b252-2f6ac412e968" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+<br /
 </details>
 
 
