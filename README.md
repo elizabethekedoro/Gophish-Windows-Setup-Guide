@@ -501,25 +501,131 @@ You have successfully setup Users & Groups and it is now ready for use. <br/>
 </details>
 
 
+
 <!-- Step 7 -->
 
 <details>
 <summary><b> Step 7: Launching a Phishing Campaign</b></summary>
-
-<p align="center">
-Sign in to your Google account <br/>
+<br/>
+ <br/> 
+A campaign combines the email template, landing page, sending profile, and user group you configured in the previous steps. <br/>
 <br />
   
 <p align="center">
-Click your profile picture: <br/>
-<img src="https://github.com/user-attachments/assets/c8ca86fb-fb5f-41cb-a616-3946fae74764" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+To create a new campaign, click >Campaigns and then click >New Campaign: <br/>
+<img src="https://github.com/user-attachments/assets/53065d71-e5a9-48cf-81f7-d842985eb15b" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
 <br />
 <br />
 
-**Testing the Phishing Campaign**
+**Setup the following:**
+<table style="border-collapse: collapse; width: 100%;">
+<tr>
+    <td style="border: 1px solid #000; padding: 8px;">Campaign Name</td>
+    <td style="border: 1px solid #000; padding: 8px;">Enter a name for your campaign. For this tutorial, I will use: <br/>"Fake Instagram Simulation Campaign"
+    </td>
+</tr>
+
+<tr>
+    <td style="border: 1px solid #000; padding: 8px;">Email Template</td>
+    <td style="border: 1px solid #000; padding: 8px;">Select "Fake Instagram Simulation", which is the Email Template created earlier.
+    </td>
+</tr>
+  
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px;">Landing Page</td>
+    <td style="border: 1px solid #000; padding: 8px;">
+       Select "Fake Instagram Simulation", which is the Landing Page created earlier.
+    </td>
+</tr>  
+</table>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/8cceaf8f-9fc5-4653-aef7-463e8ee4f99e" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+
+<table style="border-collapse: collapse; width: 100%;">
+<tr>
+    <td style="border: 1px solid #000; padding: 8px;">URL</td>
+    <td style="border: 1px solid #000; padding: 8px;">Enter your local IP address. To find it, open your PC’s Command Prompt, type <br/> "ipconfig" and copy the IPv4 Address into the URL field.
+    </td>
+</tr>
+
+<tr>
+    <td style="border: 1px solid #000; padding: 8px;">Launch Date</td>
+    <td style="border: 1px solid #000; padding: 8px;">This field is automatically populated. I recommend selecting the date on which <br/> you are carrying out the exercise.
+    </td>
+</tr>
+  
+  <tr>
+    <td style="border: 1px solid #000; padding: 8px;">Sending Profile</td>.
+    <td style="border: 1px solid #000; padding: 8px;">
+       Select "Phishing Simulation", which is the Sending Profile created earlier.
+    </td>
+</tr>  
+
+ <tr>
+    <td style="border: 1px solid #000; padding: 8px;">Groups</td>
+    <td style="border: 1px solid #000; padding: 8px;">
+       Select "Fake Instagram Simulation Group", which is the Group created earlier
+    </td>
+</tr> 
+
+ <tr>
+    <td style="border: 1px solid #000; padding: 8px;">Click</td>
+    <td style="border: 1px solid #000; padding: 8px;">
+      Send Tet Email. (This sends a test email to your inbox so you can review <br/>the message and fix any issues before launching the simulation.)
+    </td>
+</tr>
+</table
+  
+<p align="center">
+<img src="https://github.com/user-attachments/assets/84d317d8-d5b7-46c9-88c3-34908b4d1edc" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+<br />
+
+ **Testing the Phishing Campaign**
+
+ Before launching the campaign, we can test the configuration to make sure everything is working correctly.
+- After clicking "Send Test Email"): <br/>
+- Input your details. (You can use your personal Gmail account or the Gmail account you created specifically for this exercise:
+- The email should now be successfully sent. Go to your Gmail inbox to verify that you received it.
+  
+<p align="center">
+<img src="https://github.com/user-attachments/assets/cad98ac0-fcf9-4175-b50d-386c16aaa5a0" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+<br />
+
+<p align="center">
+Here is the email that appears to be from Instagram, which confirms that the configuration is working correctly: <br/>
+<img src="https://github.com/user-attachments/assets/71d475fd-6a08-4e70-9df3-91b90af3cc48" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+<br />
 
 **Launching the Phishing Campaign**
+<br/>
+<p align="center">
+Return to the Gophish Campaign interface and click >Launch Campaign: <br/>
+<img src="https://github.com/user-attachments/assets/324da8d5-c9dc-4b01-86e3-3f52f9177df6" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+<br />
+
+<p align="center">
+A confirmation pop-up will appear asking whether you are sure you want to launch the campaign. Click >Launch: <br/>
+<img src="https://github.com/user-attachments/assets/111279e4-2497-449c-8f29-e6f6963b3fd4" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<br />
+<br />
+
+<p align="center">
+Another pop-up will confirm that your campaign has been scheduled. Click >OK: <br/>
+<img src="https://github.com/user-attachments/assets/364cb2e4-3e24-4e2a-97c7-a610aee062e5" height="70%" width="70%" alt="Gophish Windows Setup Guide"/> <br/>
+🎉 You have successfully launched your phishing simulation campaign and can now view the results. <br/>  
+<br />
+<br />
 </details>
+
+<br />
+<br />
+
 
 
 <!-- Step 8 -->
@@ -527,17 +633,54 @@ Click your profile picture: <br/>
 <details>
 <summary><b> Step 8: Viewing the Phishing Campaign Result in Real-time</b></summary>
 
-<p align="center">
-Sign in to your Google account <br/>
+<br/>
+<br/>
+The Dashboard allows you to view the details and results of the campaigns you have launched. <br/>
 <br />
+
+<p align="center">
+To view the result, click >Dashboard: <br/>
+
+  Here, you will see information such as: <br/>
+- Email Sent
+- Email Opened
+- Clicked Link
+- Submitted Data
+- Email Reported
   
 <p align="center">
-Click your profile picture: <br/>
-<img src="https://github.com/user-attachments/assets/c8ca86fb-fb5f-41cb-a616-3946fae74764" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<img src="https://github.com/user-attachments/assets/3cd256cd-98e9-4a6c-939c-a37f147d25f6" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
 <br />
 <br />
 
+  
+<p align="center">
+For this exercise, open the email you received in your inbox and click the phishing simulation link. <br/> Enter random credentials into the simulated login page:
+<br/>
+
+<p align="center">
+Next, return to the Gophish Dashboard and refresh the page. 
+<img src="https://github.com/user-attachments/assets/f6780e32-749d-4b70-89fa-76a4cc351deb" height="70%" width="70%" alt="Gophish Windows Setup Guide"/> <br/>
+You should now see that the Dashboard has been updated, allowing you to view the results and details of the interaction with the simulated phishing campaign
+<br />
+<br />
+
+<p align="center">
+It successfully captured the hypothetical data I submitted, demonstrating how a phishing simulation can <br/> show the type of information an attacker may attempt to collect.
+<img src="https://github.com/user-attachments/assets/c0c776f1-0425-4e61-bc23-8e16dc1e97a4" height="70%" width="70%" alt="Gophish Windows Setup Guide"/> <br/>
+
 </details>
+<br />
+<br />
+<br />
+
+## 🎉 Congratulations!
+You have successfully completed the phishing simulation and demonstrated how a realistic phishing campaign can be configured, launched, and analyzed in a controlled environment.
+
+**Always conduct phishing simulations only with proper authorization and use them to strengthen security awareness and defensive practices.**
+<br />
+<br />
+<br />
 
 ##  Video walkthrough
 * Coming soon!
