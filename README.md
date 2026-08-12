@@ -48,31 +48,31 @@ Visit the Gophish website --> https://getgophish.com
 <br/>
   
 <p align="center">
-Click Download: <br/>
+Click >Download: <br/>
 <img src="https://github.com/user-attachments/assets/1f91134e-fc7b-4ba3-8c43-ef90fb0578f8" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
 <br />
 <br />
 
 <p align="center">
-Scroll down to the Assets section and select the Windows Zip file: <br/>
+Scroll down to the Assets section and select the Windows ZIP file: <br/>
 <img src="https://github.com/user-attachments/assets/2c19bfe3-93ce-4b55-8805-0a22ca3dbd75" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
 <br />
 <br />
 
 <p align="center">
-Choose a folder where you want to save the ZIP file and click Save: <br/>
+Choose a folder where you want to save the ZIP file and click >Save: <br/>
 <img src="https://github.com/user-attachments/assets/f3fba04a-c0a8-4dbc-b762-5a269fe52671" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
 <br />
 <br />
 
 <p align="center">
-After the download completes, navigate to the Gophish zip file, Right click and select Extract All: <br/>
+After the download completes, navigate to the Gophish zip file, right-click, and select >Extract All: <br/>
 <img src="https://github.com/user-attachments/assets/b880f550-e998-48cf-87d4-62cb88828043" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
 <br />
 <br />
 
 <p align="center">
-Choose your preferred extraction location and click Extract: <br/>
+Choose your preferred extraction location and click >Extract: <br/>
 <img src="https://github.com/user-attachments/assets/c51a1a0a-11b1-45b9-aab7-a1fc0b3fbba3" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
 <br />
 <br />
@@ -99,13 +99,13 @@ Open the extracted folder / Unzipped File: <br/>
 <br />
 
 <p align="center">
-Right-click the gophish.exe file and select Run as administrator: <br/>
+Right-click the gophish.exe file and select >Run as administrator: <br/>
 <img src="https://github.com/user-attachments/assets/ac6561c4-9ad0-4e22-adeb-46bfef4ea593" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
 <br />
 <br />
 
 <p align="center">
-If Windows prompts you to allow the application through the firewall, click Allow: <br/>
+If Windows prompts you to allow the application through the firewall, click >Allow: <br/>
 <img src="https://github.com/user-attachments/assets/15bce0ec-f10a-4120-8470-4516cd7820bd" height="70%" width="70%" alt="Gophish Windows Setup Guide"/> <br/>
 
 <br />
@@ -121,7 +121,7 @@ Note down the following information: <br/>
 - Password: Your unique 16-character generated password displayed in your terminal.
 - Gophish Server URL: https://127.0.0.1:3333.
 
-Copy and save these credentials in your Notepad.
+Copy and save these credentials in your Notepad or write them down.
 
 <br />
 
@@ -132,13 +132,13 @@ Open your web browser and navigate to the gophish Server: https://127.0.0.1:3333
 <br />
 <br />
 <p align="center">
-Since Gophish uses a self-signed certificate, your browser will display a security warning. Click Advanced:<br/>
+Since Gophish uses a self-signed certificate, your browser will display a security warning. Click >Advanced:<br/>
 <img src="https://github.com/user-attachments/assets/22003085-d1c0-425d-aa96-661d64407b16" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
 <br />
 <br />
 
 <p align="center">
-Select, Proceed to 127.0.0.1 (unsafe):<br/>
+Select, >Proceed to 127.0.0.1 (unsafe):<br/>
 <img src="https://github.com/user-attachments/assets/28ea8ba4-525e-4ae8-8245-49b7a73d37f0" height="70%" width="70%" alt="Gophish Windows Setup Guide"/> <br/>
 <p align="center">
 This is expected because the server is running locally.
@@ -153,12 +153,12 @@ Enter the following: <br/>
 - Password: Your unique 16-character generated password displayed your terminal.
 
 <p align="center">
-Click Sign In:<br/>
+Click >Sign In:<br/>
 <img src="https://github.com/user-attachments/assets/56cf2b39-d1d8-45ee-9352-95f35baa4061" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
 <br />
 
  <p align="center">
-The first time you log in, Gophish will prompt you to reset your password. <br/> Choose a strong password and click Save Password:<br/>
+The first time you log in, Gophish will prompt you to reset your password. <br/> Choose a strong password and click >Save Password:<br/>
 <img src="https://github.com/user-attachments/assets/4c185f7d-c8a1-4d98-aa53-f18dc3b21abb" height="70%" width="70%" alt="Gophish Windows Setup Guide"/> <br/>
 
 <br />   
@@ -218,7 +218,7 @@ To create one: Click >Sending Profiles, then click >New Profile: <br/>
     </tr>
   <tr>
         <td style="border: 1px solid #000; padding: 8px;">Host</td>
-        <td style="border: 1px solid #000; padding: 8px;">For Gmail SMTP, use either "smtp.gmail.com:465" or "smtp.gmail.com:587" </td>
+        <td style="border: 1px solid #000; padding: 8px;">For Gmail SMTP, use this: "smtp.gmail.com:465". If you test and it does not work, try this: "smtp.gmail.com:587" </td>
     </tr>
    <tr>
         <td style="border: 1px solid #000; padding: 8px;">Username</td>
@@ -226,7 +226,7 @@ To create one: Click >Sending Profiles, then click >New Profile: <br/>
     </tr>
    <tr>
         <td style="border: 1px solid #000; padding: 8px;">Password</td>
-        <td style="border: 1px solid #000; padding: 8px;">Do not use your normal Gmail password. Instead, <br/> 
+        <td style="border: 1px solid #000; padding: 8px;">Do not use your normal Gmail password (It will not work). Instead, <br/> 
           Click <a href="https://github.com/elizabethekedoro/How-to-Create-App-Password-for-Gmail" target="_blank">Here</a> for a quick step-by-step guide to generate your App Password.
         </tr>
     </tr>
@@ -260,7 +260,7 @@ Input your details and, click > Send: <br/>
 <br />
 
 <p align="center">
-Statu so far: Email Sent as seen in the screenshot below. <br/>
+Status so far: Email sent, as seen in the screenshot below. <br/>
 <img src="https://github.com/user-attachments/assets/5ea66d78-10d7-489d-87f7-d085eb2ed952" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
 <br />
 
@@ -276,7 +276,7 @@ Return to the Sending Profile page and click >Save Profile: <br/>
 <br />
 
 <p align="center">
-You have successfully configured your Sending Profile and it is now ready for use. <br/>
+You have successfully configured your Sending Profile, and it is now ready for use. <br/>
 <img src="https://github.com/user-attachments/assets/c606e89b-19ff-4b1b-86f7-ce56beb85f75" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
 <br />.
 <br />
@@ -306,7 +306,7 @@ To create a landing page, click >Landing Pages on the left-hand pane, then click
     </tr>
     <tr>
         <td style="border: 1px solid #000; padding: 8px;">Name</td>
-        <td style="border: 1px solid #000; padding: 8px;">Enter a name for your landing page. For this tutorial, I will use >Fake Instagram Simulation.</td>
+        <td style="border: 1px solid #000; padding: 8px;">Enter a name for your landing page. For this tutorial, I will use "Fake Instagram Simulation".</td>
     </tr>
   
    <tr>
@@ -329,7 +329,7 @@ To preview what the landing page looks like, click >Source: <br/>
 <br />
 <br />
 
-- Select, >Capture Submitted Data and >Capture Passwords: (This is to esnure the login credentials entered during the simulation will be captured, which you will see at the end of this exercise.) <br/> 
+- Select >Capture Submitted Data and >Capture Passwords: (This is to ensure the login credentials entered during the simulation will be captured, which you will see at the end of this exercise). <br/> 
 - Redirect to: Enter the URL where you want the user to be redirected after submitting the page. eg https://Instagram.com: <br/> 
 - Finally, click Save Page.
  <br/>
@@ -339,7 +339,7 @@ To preview what the landing page looks like, click >Source: <br/>
 <br />
 
 <p align="center">
-You have successfully setup your Landing Page and it is now ready for use. <br/> 
+You have successfully set up your Landing Page, and it is now ready for use. <br/> 
 <img src="https://github.com/user-attachments/assets/d7ec6cb1-9d4b-4ae2-8f4e-d160ccf65f8f" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
 <br />
 <br />
@@ -352,11 +352,11 @@ You have successfully setup your Landing Page and it is now ready for use. <br/>
 <br />
 <br /> 
 <p align="center">
-An email template is the content of the email that will be sent to the targets. You can either import an existing email or create one from scratch. <br/>
+An email template is the content of the email that will be sent to the target(s). You can either import an existing email or create one from scratch. <br/>
 <br />
   
 <p align="center">
-To create an email template, click >Email Templates and then click >New Template.: <br/>
+To create an email template, click >Email Templates and then click >New Template: <br/>
 <img src="https://github.com/user-attachments/assets/0702a063-a2f0-4687-ad4c-bee310aee0c4" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
 <br />
 <br />
@@ -369,7 +369,7 @@ To create an email template, click >Email Templates and then click >New Template
     </tr>
     <tr>
         <td style="border: 1px solid #000; padding: 8px;">Name</td>
-        <td style="border: 1px solid #000; padding: 8px;">Enter a name for your template. For this tutorial, I will use >Fake Instagram Simulation: </td>
+        <td style="border: 1px solid #000; padding: 8px;">Enter a name for your template. For this tutorial, I will use "Fake Instagram Simulation." </td>
     </tr>
 
    </tr>
@@ -403,7 +403,7 @@ To preview what the Email Template looks like, click >Source: <br/>
 <br />
 <br />
 
-- Select, >Add Tracking Image (To track when the email is opened): <br/> 
+- Select >Add Tracking Image (To track when the email is opened): <br/> 
 - Once you are satisfied with the template, click >Save Template: <br/> 
  <br/>
  <p align="center">
@@ -440,40 +440,40 @@ To create a new group, click >Users & Groups and then click >New Group: <br/>
 <table style="border-collapse: collapse; width: 100%;">
 <tr>
     <td style="border: 1px solid #000; padding: 8px;">Group Name</td>
-    <td style="border: 1px solid #000; padding: 8px;">Enter a name for your group. For this tutorial, I will use <br/>"Fake Instagram Simulation Group"
+    <td style="border: 1px solid #000; padding: 8px;">Enter a name for your group. For this tutorial, I will use <br/>"Fake Instagram Simulation Group."
     </td>
 </tr>
 
 <tr>
     <td style="border: 1px solid #000; padding: 8px;">First Name</td>
     <td style="border: 1px solid #000; padding: 8px;">
-        e.g. Ekedoro (enter the recipient's last name)
+         Enter the recipient's first name (e.g., Ekedoro)
     </td>
 </tr>
   
   <tr>
     <td style="border: 1px solid #000; padding: 8px;">Last Name</td>
     <td style="border: 1px solid #000; padding: 8px;">
-        e.g. Ekedoro (enter the recipient's last name)
+         Enter the recipient's last name (e.g., Ekedoro)
     </td>
 </tr>
 
 <tr>
     <td style="border: 1px solid #000; padding: 8px;">Email</td>
     <td style="border: 1px solid #000; padding: 8px;">
-        e.g. sekanalyt@gmail.com (enter the recipient's email)
+         Enter the recipient's email (e.g. sekanalyt@gmail.com)
     </td>
 </tr>
 
 <tr>
     <td style="border: 1px solid #000; padding: 8px;">Position</td>
     <td style="border: 1px solid #000; padding: 8px;">
-        e.g. CEO (enter the recipient's position)
+        Enter the recipient's position (e.g., CEO)
     </td>
 </tr>  
 </table>
 
-- Select, >Add (After inputing the required details): <br/> 
+- Select >Add (After inputting the required details): <br/> 
 - Once you are satisfied, click >Save Changes: <br/>
 <p align="center">
 <img src="https://github.com/user-attachments/assets/334b5e95-e9dd-4307-80a1-0383a46a7846" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
@@ -486,7 +486,7 @@ To create a new group, click >Users & Groups and then click >New Group: <br/>
 > For this tutorial, I am only sending the simulation to myself, so I added my details. <br/>
 > Only use your own details unless you have explicit authorization or consent from an individual or organization.
 
-- Select, >Add (If you have two or more personal email addresses, you can add them as well): <br/> 
+- Select >Add (If you have two or more personal email addresses, you can add them as well): <br/> 
 - Once you are satisfied, click >Save Changes: <br/>  
 <p align="center">
 <img src="https://github.com/user-attachments/assets/494cb252-2f3b-4539-8430-8fd5254d884c" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
@@ -494,7 +494,7 @@ To create a new group, click >Users & Groups and then click >New Group: <br/>
 <br />
 
 <p align="center">
-You have successfully setup Users & Groups and it is now ready for use. <br/> 
+You have set up Users & Groups, and it is now ready for use. <br/> 
 <img src="https://github.com/user-attachments/assets/5037429a-67c0-4481-b252-2f6ac412e968" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
 <br />
 <br /
@@ -566,18 +566,19 @@ To create a new campaign, click >Campaigns and then click >New Campaign: <br/>
  <tr>
     <td style="border: 1px solid #000; padding: 8px;">Groups</td>
     <td style="border: 1px solid #000; padding: 8px;">
-       Select "Fake Instagram Simulation Group", which is the Group created earlier
+       Select "Fake Instagram Simulation Group", which is the Group created earlier.
     </td>
 </tr> 
 
  <tr>
-    <td style="border: 1px solid #000; padding: 8px;">Click</td>
+    <td style="border: 1px solid #000; padding: 8px;">Send Test Email</td>
     <td style="border: 1px solid #000; padding: 8px;">
-      Send Tet Email. (This sends a test email to your inbox so you can review <br/>the message and fix any issues before launching the simulation.)
+      Click "Send Test Email". (This sends a test email to your inbox so you can review <br/>the message and fix any issues before launching the simulation).
     </td>
 </tr>
 </table
-  
+
+<br />
 <p align="center">
 <img src="https://github.com/user-attachments/assets/84d317d8-d5b7-46c9-88c3-34908b4d1edc" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
 <br />
@@ -586,12 +587,15 @@ To create a new campaign, click >Campaigns and then click >New Campaign: <br/>
  **Testing the Phishing Campaign**
 
  Before launching the campaign, we can test the configuration to make sure everything is working correctly.
-- After clicking "Send Test Email"): <br/>
-- Input your details. (You can use your personal Gmail account or the Gmail account you created specifically for this exercise:
-- The email should now be successfully sent. Go to your Gmail inbox to verify that you received it.
+- After clicking "Send Test Email": <br/>
+- Input your details and click >Send: <br/> (You can use your personal Gmail account or the Gmail account you created specifically for this exercise).
   
 <p align="center">
-<img src="https://github.com/user-attachments/assets/cad98ac0-fcf9-4175-b50d-386c16aaa5a0" height="70%" width="70%" alt="Gophish Windows Setup Guide"/>
+<img src="https://github.com/user-attachments/assets/cad98ac0-fcf9-4175-b50d-386c16aaa5a0" height="70%" width="70%" alt="Gophish Windows Setup Guide"/> <br/>
+  
+<p align="center">
+The email should now be successfully sent. Go to your Gmail inbox to verify that you received it.
+    
 <br />
 <br />
 
@@ -624,9 +628,6 @@ Another pop-up will confirm that your campaign has been scheduled. Click >OK: <b
 </details>
 
 <br />
-<br />
-
-
 
 <!-- Step 8 -->
 
@@ -661,7 +662,7 @@ For this exercise, open the email you received in your inbox and click the phish
 <p align="center">
 Next, return to the Gophish Dashboard and refresh the page. 
 <img src="https://github.com/user-attachments/assets/f6780e32-749d-4b70-89fa-76a4cc351deb" height="70%" width="70%" alt="Gophish Windows Setup Guide"/> <br/>
-You should now see that the Dashboard has been updated, allowing you to view the results and details of the interaction with the simulated phishing campaign
+You should now see that the Dashboard has been updated, allowing you to view the results and details of the interaction with the simulated phishing campaign.
 <br />
 <br />
 
@@ -672,14 +673,16 @@ It successfully captured the hypothetical data I submitted, demonstrating how a 
 </details>
 <br />
 <br />
-<br />
 
 ## 🎉 Congratulations!
-You have successfully completed the phishing simulation and demonstrated how a realistic phishing campaign can be configured, launched, and analyzed in a controlled environment.
+You have completed the phishing simulation and demonstrated how to configure, launch, and analyze a realistic phishing campaign in a controlled environment. <br />
+<br />
 
-**Always conduct phishing simulations only with proper authorization and use them to strengthen security awareness and defensive practices.**
+> **Always conduct phishing simulations only with proper authorization and use them to strengthen security awareness and defensive practices.**
+
 <br />
-<br />
+
+Please [contact me](https://www.linkedin.com/in/ekedoro-elizabeth/) if you have any questions.
 <br />
 
 ##  Video walkthrough
