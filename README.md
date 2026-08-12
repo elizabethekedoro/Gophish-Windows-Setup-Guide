@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- Replace with your actual logo -->
-<img src="https://github.com/user-attachments/assets/06311142-89fd-4566-a0d6-392c097ec0d1" height="70%" width="100%" alt="Gophish Logo"/>
+<!-- My Logo -->
+<img src="https://github.com/user-attachments/assets/528f0fbb-efde-472d-ac31-566494d96467" height="50%" width="80%" alt="Gophish Logo"/>
 
 
 # Gophish-Windows-Setup-Guide-By-Elizabeth-Ekedoro
