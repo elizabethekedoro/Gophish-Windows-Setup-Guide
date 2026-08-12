@@ -221,8 +221,8 @@ To create one: Click >Sending Profiles, then click >New Profile: <br/>
         <td style="border: 1px solid #000; padding: 8px;">For Gmail SMTP, use either "smtp.gmail.com:465" or "smtp.gmail.com:587" </td>
     </tr>
    <tr>
-        <td style="border: 1px solid #000; padding: 8px;">Uername</td>
-        <td style="border: 1px solid #000; padding: 8px;">Enter the same Gmail address used in the SMTP From field, example: yourgmail@gmail.com</td>
+        <td style="border: 1px solid #000; padding: 8px;">Username</td>
+        <td style="border: 1px solid #000; padding: 8px;">Enter the same Gmail address used in the "SMTP From" field, example: yourgmail@gmail.com</td>
     </tr>
    <tr>
         <td style="border: 1px solid #000; padding: 8px;">Password</td>
