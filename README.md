@@ -686,7 +686,7 @@ Please [contact me](https://www.linkedin.com/in/ekedoro-elizabeth/) if you have 
 <br />
 
 ##  Video walkthrough
-* Coming soon!
+* To Watch The Full Video  [Click here](https://youtu.be/4UksawUB-HY?si=84Xpfw0o2QrtsoS4/)
 
 
 <div align="center">
